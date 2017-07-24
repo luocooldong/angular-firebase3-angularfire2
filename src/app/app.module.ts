@@ -28,7 +28,7 @@ import { AppComponent } from './app.component';
     FlexLayoutModule,
     AngularFireModule.initializeApp(environment.firebase), //imports firebase/app needed for everything
     AngularFireDatabaseModule, // imports firebase/database, only needed for database features
-    AngularFireAuthModule, // imports firebase/auth, only needed for auth features
+    AngularFireAuthModule // imports firebase/auth, only needed for auth features
   ],
   providers: [],
   bootstrap: [AppComponent]
